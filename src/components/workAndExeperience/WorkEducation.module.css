@@ -1,0 +1,35 @@
+.workEducation-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-year {
+  width: 50%;
+}
+
+.card-info {
+  width: 50%;
+}
+
+.work-name {
+  font-weight: bold;
+}
+
+.course-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-card li {
+  list-style: none;
+}
+
+.course-year,
+.course-name {
+  width: 50%;
+  margin: 0.5rem 0;
+}
+
+.course-name {
+  font-weight: bold;
+}

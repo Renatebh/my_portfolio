@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+// import PrimaryButton from "./common/PrimaryButton";
+import Home from "./pages/Home";
 
 function App() {
+  // const handleClick = () => {
+  //   console.log("Er du våken?");
+
+  // };
+  const [adminMode, setAdminMode] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <>
+      <div className="App">
+        <button onClick={() => setAdminMode(!adminMode)}>Hehe</button>
+        <Home />
+        {/* <PrimaryButton
+          disableBtn={false}
+          text="Klikk meg!"
+          onclick={handleClick}
+        />
+        <PrimaryButton disableBtn={true} text="Ikke klikk på meg!" />
+
+        <PrimaryButton
+          text="Jeg har childreeen"
+          disableBtn={false}
+          onclick={handleClick}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <h1>fjdsfl</h1>
+        </PrimaryButton> */}
+      </div>
+    </>
   );
 }
 

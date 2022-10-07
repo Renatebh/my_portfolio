@@ -1,7 +1,6 @@
 import React from "react";
 import CoursesData from "./data/CoursesData";
 import HeadingOne from "../headings/HeadingOne";
-import Card from "./Card";
 import styles from "../workAndExeperience/WorkEducation.module.css";
 
 const Courses = () => {

@@ -16,3 +16,31 @@
   font-size: var(--step--2);
   margin: 0.7rem 0;
 }
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 768px) {
+  .card ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .card-skills > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .card ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .card-skills > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+}

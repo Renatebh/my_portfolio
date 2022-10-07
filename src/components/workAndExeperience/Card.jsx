@@ -5,15 +5,15 @@ const Card = (props) => {
   return (
     <div className={styles["workEducation-card"]}>
       <div className={styles["card-year"]}>
-        <p>{props.year}</p>
+        <p className={styles["work-year"]}>{props.year}</p>
       </div>
       <div className={styles["card-info"]}>
         <p className={styles["work-name"]}>{props.title}</p>
-        <p>{props.name}</p>
+        <p className={styles["work-place"]}>{props.name}</p>
         <ul>
-          <li>{props.taskOne}</li>
-          <li>{props.taskTwo}</li>
-          <li>{props.taskThree}</li>
+          <li className={styles["list-item"]}>-{props.taskOne}</li>
+          <li className={styles["list-item"]}>-{props.taskTwo}</li>
+          <li className={styles["list-item"]}>-{props.taskThree}</li>
         </ul>
       </div>
     </div>

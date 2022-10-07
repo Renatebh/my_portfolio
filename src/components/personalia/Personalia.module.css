@@ -1,6 +1,7 @@
 @import "../../variables/variables.module.css";
 
 .image {
+  height: 200px;
   width: 200px;
   border-radius: 50%;
   border: 2px solid var(--white);
@@ -34,4 +35,34 @@
   transition: all 0.7s ease-in-out;
   transform: scale(1.1);
   box-shadow: var(--box-shadow-light);
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .image-container {
+    width: 900px;
+  }
+  .top-personal {
+    width: 900px;
+  }
+  .personal {
+    flex-direction: row;
+    width: 900px;
+  }
+  .skills {
+    width: 900px;
+  }
+  .interests {
+    width: 900px;
+  }
+  .language {
+    width: 900px;
+  }
+  .some-container {
+    width: 900px;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .links-container {
+    width: 900px;
+  }
 }

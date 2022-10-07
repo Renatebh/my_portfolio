@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../assets/person-icon.png";
+import image from "../../assets/my_image.jpg";
 import styles from "../personalia/Personalia.module.css";
 
 const MyImage = () => {

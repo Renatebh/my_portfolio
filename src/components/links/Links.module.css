@@ -1,0 +1,33 @@
+.links-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.link-item {
+  background-color: #ffcc70;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.link-item a {
+  text-decoration: none;
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 1024px) {
+  .links-list {
+    gap: 1rem;
+  }
+
+  .link-item {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}

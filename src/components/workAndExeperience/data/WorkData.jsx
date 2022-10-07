@@ -1,5 +1,15 @@
 const WorkData = [
   {
+    company: "Gokstad Akademiet",
+    year: "2022",
+    jobTitle: "Mentor",
+    text: {
+      taskOne: "Inspirere",
+      taskTwo: "Hjelpe og guide",
+      taskThree: "Oppfølging og studieveiledning",
+    },
+  },
+  {
     company: "Hennes&Mauritz Larvik/Sandefjord",
     year: "2005-2014 2015-2021",
     jobTitle: "Visual Mechandicer 100%",

@@ -14,9 +14,9 @@ const EducationData = [
     year: "1999-2002",
     title: "Allmennfag",
     text: {
-      taskOne: "HTML og CSS",
-      taskTwo: "JavaScript",
-      taskThree: "React",
+      taskOne: "IT",
+      taskTwo: "Engelsk",
+      taskThree: "Markedsføring",
     },
   },
 ];
